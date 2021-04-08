@@ -8,3 +8,6 @@ jobs:
   deploy:
     environment: staging
 
+    steps:
+      - name: Run
+        run: echo "Deploying to staging!"
