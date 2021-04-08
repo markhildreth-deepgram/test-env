@@ -1,0 +1,10 @@
+name: deploy_staging
+on:
+  push:
+    branches:
+      master
+
+jobs:
+  deploy:
+    environment: staging
+
