@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Run
-      - run: echo "Deploying to staging!"
+        run: echo "Deploying to staging!"
