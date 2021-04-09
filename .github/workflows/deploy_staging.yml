@@ -7,8 +7,7 @@ on:
 jobs:
   deploy:
     environment: staging
-
+    runs-on: ubuntu-20.04
     steps:
       - name: Run
-        runs-on: ubuntu-20.04
-        run: echo "Deploying to staging!"
+      - run: echo "Deploying to staging!"
