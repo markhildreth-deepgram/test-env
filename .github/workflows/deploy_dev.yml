@@ -4,10 +4,9 @@ on:
 
 jobs:
   deploy:
-    name: deploy
     environment: dev
+    runs-on: ubuntu-20.04
 
     steps:
       - name: Run
         run: echo "Deploying to dev!"
-
